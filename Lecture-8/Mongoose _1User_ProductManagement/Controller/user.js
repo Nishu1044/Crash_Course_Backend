@@ -1,5 +1,5 @@
 const UserSchemaData = require("../Model/UserSchema")
-
+// const checkDuplicateUser = require("../Middleware/userCheck")
 
 
 const addUser = async (req,res)=>{
