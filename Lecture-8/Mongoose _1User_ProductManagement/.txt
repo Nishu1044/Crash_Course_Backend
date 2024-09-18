@@ -1,0 +1,4 @@
+step 1: start server(index.js)
+step2: connect mongoDB using confin folder,db.js file
+step3: to create schema in MODEL folder
+step4: create Routes
