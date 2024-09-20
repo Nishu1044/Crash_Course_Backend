@@ -40,7 +40,7 @@ movieRouter.get("/filterMovie", async (req,res)=>{
         queryObj.title = {"$regex":req.query.title,"$options": "i"}
     }
     if(req.query.rating){
-        queryObj.rating = {"$regex":req.query.title}
+        queryObj.rating = {"$regex":req.query.rating}
     }
     console.log(queryObj);
 
