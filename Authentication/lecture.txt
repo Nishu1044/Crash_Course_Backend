@@ -1,0 +1,4 @@
+userModel = store user information
+ => Schema
+ => Model
+2 routes = registration & login
